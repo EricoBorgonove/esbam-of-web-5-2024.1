@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+</head>
+<body>
+    <style>
+        body{
+            height: 2000px;
+        }
+        input{
+            margin-bottom: 5px;
+        }
+    </style>
+    <nav>
+        <a href="/index.html">Home</a>
+        <a href="/pages/semantica.html">Semantica</a>
+        <a href="/pages/biografiaFreddie.html">Biografia</a>
+        <a href="/pages/listaDetarefas.html">Lista de Tarefas</a>
+        <a href="/pages/tabelaBrasileirao2023.html">Tabela Brasileirão 2023 </a>
+        <a href="/pages/faleConosco.html">Fale Conosco</a>
+        <hr>
+    </nav>
+
+    <main>
+        <h2>Fale Conosco</h2>
+        <hr>
+
+        <form>
+            <section>
+                <h3>Dados Pessoais</h3>
+                <div>
+                    <label for="nome">Nome: </label>
+                    <input name="nome" type="text" placeholder="Digite seu Nome">
+                    <label for="sobrenome">Sobrenome: </label>
+                    <input name="sobrenome" type="text">
+                </div>
+                <div>
+                    <label for="cpf">CPF: </label>
+                    <input name="cpf" type="number" id="cpf" placeholder="000.000.000-00">
+                    <label for="rg">RG: </label>
+                    <input type="number" name="rg">
+                </div>
+                <div>
+                    <label for="genero">Gênero: </label>
+                    <input type="radio" name="genero" id=""> Masculino
+                    <input type="radio" name="genero" id=""> Feminino
+                    <input type="radio" name="genero" id=""> Outros
+                    <input type="text" disabled>
+                </div>
+                <div>
+                    <label for="nascimento">Nascimento: </label>
+                    <input type="date" name="nascimento" id="">
+                    <!-- solteiro, casado, separado, divorciado e viúvo -->
+                    <label for="estadoCivil">Estado Civil: </label>
+                    <select name="estadoCivil" id="">
+                        <option value=""></option>
+                        <option value="">Solteiro</option>
+                        <option value="">Casado</option>
+                        <option value="">Separado</option>
+                        <option value="">Divorciado</option>
+                        <option value="">Viúvo</option>
+                    </select>
+                </div>
+                <div>
+                    <Label for="nacionalidade">Nacionalidade: </Label>
+                    <select name="nacionalidade" id="">
+                        <option value="" selected></option>
+                        <option value="brasil">Brasil</option>
+                        <option value="">Argentina</option>
+                        <option value="">Cuba</option>
+                        <option value="">Iraque</option>
+                        <option value="">Venezuela</option>
+                        <option value="">Coreia do Norte</option>
+                        <option value="">Ucrania</option>
+                    </select>
+                    <label for="naturalidade" hidden>Naturalidade: </label>
+                    <select name="naturalidade" id="naturalidade" hidden>
+                        <option value=""></option>
+                        <option value="">Acre</option>
+                        <option value="">Amazonas</option>
+                        <option value="">Pará</option>
+                    </select>
+                </div>
+            </section>
+            <section>
+                <h3>Informações de Contato</h3>
+                <div>
+                    <div>
+                        <label for="telefone">Telefone: </label>
+                        <input type="tel" name="telefone" id="">
+                        <button type="button" onclick="">Adicionar</button>   
+                    </div>
+                    <div>
+                        <label for="celular">Celular: </label>
+                        <input type="tel" name="celular" id="">
+                        <button type="button" onclick="">Adicionar</button>
+                    </div>
+                    <div>
+                        <label for="email">E-mail: </label>
+                        <input type="email" name="email" id="">
+                        <button type="button" onclick="">Adicionar</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h3>Preferências Musicais</h3>
+                <div>
+                    <input type="checkbox" name="" id="">MPB
+                    <input type="checkbox" name="" id="" checked>Rock
+                    <input type="checkbox" name="" id="">POP
+                    <input type="checkbox" name="" id="">Jazz
+                    <input type="checkbox" name="" id="">Classica
+                    <input type="checkbox" name="" id="">Gospel
+                    <input type="checkbox" name="" id="" disabled>Funk 
+                </div>
+            </section>
+            <section>
+                <h3>Login</h3>
+                <div>
+                    <label for="user">Usuário: </label>
+                    <input type="text"  name="usuario" id="user">
+                    <button type="button">Ver</button>
+                </div>
+                <div>
+                    <label for="senha">Senha: </label>
+                    <input type="password" name="senha" id="senha1" placeholder="Digite sua senha">
+                    <input type="password" name="senha" id="senha2" placeholder="Confirme sua senha">
+                </div>
+            </section>
+            <section>
+                <button type="submit">Salvar Cadastro</button>
+                <button type="reset">Limpar Campos</button>
+            </section>
+        </form>
+        <div>
+            <a href="/index.html"><input type="button" value="Voltar"></a>
+            <a href="/pages/endereco.html"><input type="button" value="Avançar"></a>
+
+        </div>
+
+    </main>
+    
+    
+
+</body>
+</html>
