@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    font-size: 48px;
+}
+body{
+    background-color:  rgba(160, 122, 51,0.7);
+}
+.item1 , .item2 , .item3{
+    color: #ffffff;
+    border: 3px solid black;
+    width: 50%;
+    text-align: center;
+}
+.item1{
+    margin: 30px;
+    background-color: blueviolet;
+    padding-top: 10px;
+}
+.item2{
+    padding: 25px;
+    background-color: red;
+    border-radius: 50px;
+}
+.item3{
+    margin: 45px;
+    background-color: gray;
+}
+.item{
+    margin: 35px;
+    border: 1px  solid white;
+    width: 75%;
+}

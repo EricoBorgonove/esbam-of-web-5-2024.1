@@ -1,0 +1,14 @@
+*{ /* seletor universal : pega todos os elementos do html*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{ /*seletor de tags: pega todas as tags  <p> */
+    color: blue;
+    font-size: 20px;
+}
+.classe1{  /*Seletor de classes:é usado para selecionar a classe */
+    background-color: yellow;
+}
+#id1{   /* Seletor de ID: é usado para estilizar um ID especifico */
+    border-radius:  3px;
+    border: 3px solid black;
+}
