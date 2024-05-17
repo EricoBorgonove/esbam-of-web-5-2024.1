@@ -45,10 +45,10 @@
                 </div>
                 <div>
                     <label for="genero">Gênero: </label>
-                    <input type="radio" name="genero" id=""> Masculino
-                    <input type="radio" name="genero" id=""> Feminino
-                    <input type="radio" name="genero" id=""> Outros
-                    <input type="text" disabled>
+                    <input type="radio" name="genero" onclick="abrirOutros()" id=""> Masculino
+                    <input type="radio" name="genero" onclick="abrirOutros()" id=""> Feminino
+                    <input type="radio" name="genero" onclick="abrirOutros()" id=""> Outros
+                    <input type="text" id="outros" disabled>
                 </div>
                 <div>
                     <label for="nascimento">Nascimento: </label>
@@ -66,9 +66,9 @@
                 </div>
                 <div>
                     <Label for="nacionalidade">Nacionalidade: </Label>
-                    <select name="nacionalidade" id="">
+                    <select name="nacionalidade" id="nacionalidade" onclick="verEstados()">
                         <option value="" selected></option>
-                        <option value="brasil">Brasil</option>
+                        <option value="BR">Brasil</option>
                         <option value="">Argentina</option>
                         <option value="">Cuba</option>
                         <option value="">Iraque</option>
@@ -76,12 +76,9 @@
                         <option value="">Coreia do Norte</option>
                         <option value="">Ucrania</option>
                     </select>
-                    <label for="naturalidade" hidden>Naturalidade: </label>
+                    <label for="naturalidade" id="labelNaturalidade" hidden>Naturalidade: </label>
                     <select name="naturalidade" id="naturalidade" hidden>
                         <option value=""></option>
-                        <option value="">Acre</option>
-                        <option value="">Amazonas</option>
-                        <option value="">Pará</option>
                     </select>
                 </div>
             </section>
@@ -144,6 +141,6 @@
     </main>
     
     
-
+    <script src="/assets/js/faleConosco.js"></script>
 </body>
 </html>
